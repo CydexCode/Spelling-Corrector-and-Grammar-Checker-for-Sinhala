@@ -26,7 +26,7 @@ def load_dictionary():
     Load the Sinhala dictionary from a file and return it as a set.
     """
     # Load the dictionary from the file
-    with open('D:\MY\sem 7\AI\Project\AI_Project\DictionaryCreation\sinhala_dictionary.txt', 'r', encoding='utf-8') as f:
+    with open('D:\MY\sem 7\AI\Project\Sinhala Spell and Grammar Checker\DictionaryCreation\sinhala_dictionary.txt', 'r', encoding='utf-8') as f:
         return set(f.read().splitlines())
 
 def spell_check(text, dictionary):

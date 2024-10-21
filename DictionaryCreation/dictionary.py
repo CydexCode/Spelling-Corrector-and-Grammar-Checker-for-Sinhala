@@ -2,7 +2,7 @@ import re
 import os
 
 # Path to the Sinhala dataset
-dataset_path = 'D:\MY\sem 7\AI\Project\AI_Project\DictionaryCreation\sinhala_text_file'  
+dataset_path = 'D:\MY\sem 7\AI\Project\Sinhala Spell and Grammar Checker\DictionaryCreation\sinhala_text_file'  
 
 # Function to extract Sinhala words
 def extract_sinhala_words(text):
