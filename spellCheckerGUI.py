@@ -105,7 +105,7 @@ def reset_text():
 # GUI setup
 root = tk.Tk()
 root.title("Sinhala Spell and Grammar Checker")
-root.geometry("700x600")
+root.geometry("700x800")
 
 # Add a label for instructions
 label = tk.Label(root, text="Enter Sinhala text below:", font=("Arial", 14))
@@ -123,13 +123,15 @@ check_button.grid(column=0, row=2, padx=10, pady=10)
 auto_correct_button = tk.Button(root, text="Auto Correct", command=auto_correct_text)
 auto_correct_button.grid(column=0, row=3, padx=10, pady=10)
 
-# Add a button to reset the text
-reset_button = tk.Button(root, text="Reset", command=reset_text)
-reset_button.grid(column=0, row=4, padx=10, pady=10)
+
 
 # Add a text area for displaying the results
 result_area = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=70, height=10, font=("Arial", 12))
 result_area.grid(column=0, row=5, padx=10, pady=10)
+
+# Add a button to reset the text
+reset_button = tk.Button(root, text="Reset", command=reset_text)
+reset_button.grid(column=0, row=4, padx=10, pady=10)
 
 # Start the Tkinter main loop
 root.mainloop()
