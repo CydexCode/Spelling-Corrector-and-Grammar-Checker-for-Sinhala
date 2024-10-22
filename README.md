@@ -10,12 +10,14 @@ This project is a **Sinhala Spell and Grammar Checker** that helps users write e
 
 - **Grammar Checking**
   - Detects common grammar issues, such as repeated words and missing punctuation.
-  - Suggests cor![Screenshot 2024-10-22 124230](https://github.com/user-attachments/assets/5c9cfef2-7fa1-491d-b170-45748b498611)
-rections to improve text readability and quality.
+  - Suggests corrections to improve text readability and quality.
+
+![Screenshot 2024-10-22 124230](https://github.com/user-attachments/assets/5c9cfef2-7fa1-491d-b170-45748b498611)
 
 - **Auto-Correction**
   - Automatically corrects spelling mistakes by finding the closest match from the dictionary.
   - Corrects basic grammar mistakes, such as repeated words and adding missing punctuation.
+    
 ![Screenshot 2024-10-22 124247](https://github.com/user-attachments/assets/9f73ecef-e6d7-4d7c-a0fd-ea145dcb4f41)
 
 
